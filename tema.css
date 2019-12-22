@@ -1,0 +1,30 @@
+body {
+	background-color: #78C0E0;
+}
+
+
+.footer {
+	background-color: #62BFED;
+}
+
+.content {
+	background-color: #BAD6C7;
+	padding: 1em;
+	border-radius: 3 rem;
+}
+
+.bg-pal {
+	background-color: #62BFED;
+}
+
+.first-row {
+	margin-top: 5em;
+}
+
+.second-row{
+	margin-bottom: 5em;
+}
+
+.cl-a{
+	color: black;
+}
