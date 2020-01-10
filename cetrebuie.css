@@ -1,0 +1,92 @@
+body {
+  background-color:#FFD9CE;
+}
+
+h1 {
+  border: 1px solid black;
+}
+
+h2 {
+  color: purple;
+}
+
+input {
+  border: 2px solid rgb(144, 0, 0);
+}
+
+div p {
+  background: #fffca5;
+}
+
+#text-block {
+  border: 5px solid gray;
+  width: 800px;
+  height: 400px;
+}
+
+a {
+  color: red;
+}
+
+#ce {
+  text-decoration: overline;
+  color: purple;
+}
+
+.exit {
+  background-color: blue;
+  border: 4px dashed yellow;
+}
+
+a:visited {
+  color: blue;
+}
+
+table{
+  border-collapse: collapse;
+}
+
+table,th,tr{
+  border: 1px solid black;
+}
+
+td{
+  height: 30px;
+}
+
+#color1{
+  background-color: #593C8F;
+
+}
+#color2{
+  background-color: #8EF9F3;
+
+}
+#color3{
+  background-color: #F4E285;
+
+}
+#color4{
+  background-color: #F4A259;
+
+}
+#color5{
+  background-color: #8CB369;
+
+}
+#color6{
+  background-color: #FF1654;
+
+}
+#color7{
+  background-color: #70C1B3;
+
+}
+#color8{
+  background-color: #E9F7CA;
+
+}
+
+
+
+
