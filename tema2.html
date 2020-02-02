@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>X si 0!</title>
+  <link href="tema2.css" rel="stylesheet">
+</head>
+<body>
+    <h1>X si 0!</h1>
+    <h2 id = "displayText">Introduceti numele jucatorului si dati start!!</h2>
+    <div id = "boardContainer"></div>
+    <div id = "inputsContainer">
+        <div id = "textBoxContainer">
+            <input type = "text" id = "playerOneName" placeholder="Jucatorul Unu">
+            <input type = "text" id = "playerTwoName" placeholder="Jucatorul Doi">
+        </div>
+        <div id = "checkBoxContainer">
+            <div id = "checkBoxText">Joaca impotriva calculatorului!</div>
+            <input type = "checkbox" id = "checkbox" onclick="gameBoard.disablePlayerTwo()">
+        </div>
+        <div id = "buttonsContainer">
+            <button id = "playButton" onclick = "gameBoard.startGame()">Incepe un joc nou!</button>
+            <button id = "endGameButton" onclick = "gameBoard.endGame()">Inchide jocul</button>
+        </div>
+    </div>
+</body>
+<script src="tema2.js"></script>
+</html>

@@ -1,0 +1,70 @@
+body{
+  background-color: #E0C5C9;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: "Comic Sans MS"
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: "Comic Sans MS"
+}
+
+.boxes {
+    float: left;
+    text-align: center; 
+    line-height: 150px;
+    font-size: 75px; 
+}
+
+#div00, #div01, #div10, #div11, #div20, #div21 {
+    border-right: solid 5px black; 
+}
+
+#div00, #div01, #div02, #div10, #div11, #div12 {
+    border-bottom: solid 5px black; 
+}
+
+#boardContainer{
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    width: 450px;
+    height: 450px;
+    margin: auto;
+    background: rgb(255, 255, 255);
+}
+
+#inputsContainer {
+    display: grid; 
+    margin: auto; 
+    width: 450px; 
+    margin-top: 40px;
+    text-align: center;
+}
+
+#checkBoxContainer {
+    margin: 5px 5px 10px 5px; 
+}
+
+#checkBoxText {
+    display: inline-block;
+    font-family: "Comic Sans MS"
+}
+
+input[type="checkbox"] {
+    display: inline-block; 
+}
+
+button {
+    width: 140px; 
+    font-family: "Comic Sans MS"
+}
+
+#endGameButton {
+    display: none; 
+}
